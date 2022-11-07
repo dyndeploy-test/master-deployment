@@ -1,6 +1,7 @@
 deployments:
   default:
     ready_wait: 120
+    filename: docker-compose.yml
     depends_on:
       - CMS_SERVER:
             app: child-deployment
